@@ -1,9 +1,20 @@
 # Vue实训-音乐后台管理
-音乐后台管理系统，使用Vue+ElementUI+Echars开发，拥有用户登录、用户管理、歌曲管理、专辑管理、评论管理等模块。
+音乐后台管理系统，使用Vue+ElementUI+Echars开发，拥有用户登录、后台首页、用户管理、歌曲管理、专辑管理、评论管理等模块。
 ## 项目地址
 Gitee：https://gitee.com/pengsirs/vue
 
 GitHub：https://github.com/pengsirs/Vue
+
+## 实验目的
+1. 熟悉Vue开发工具，学会安装Vue-CLI脚手架工具。
+2. 学会使用Vue-CLI脚手架工具在自己的电脑上建立项目，并运行调试。
+3. 使用Vue+ElementUI便携一个后台管理系统
+4. 使用Vue整合Echars
+
+## 实验内容
+1. 使用Vue-CLI脚手架工具，用命令的方法搭建一个Web项目
+2. 使用Vue创建音乐后台管理系统，使用Vue+ElementUI+Echars开发，拥有用户登录、后台首页、用户管理、歌曲管理、专辑管理、评论管理等模块并使用ElementUI构建页面
+3. 使用Vue中的Router（路由）进行编写页面的跳转等功能
 
 ## 项目目录结构
 config 配置目录，包括端口号等
@@ -33,3 +44,5 @@ README.md 项目的说明文档
 **npm run serve**
 
 直到提示网址链接即可复制链接到浏览器
+
+## 项目详细过程及步骤
