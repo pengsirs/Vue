@@ -39,7 +39,7 @@ export default {
       rules: {
           name: [
             { required: true, message: '请输入用户名', trigger: 'blur' },
-            { min: 3, max: 5, message: '长度在 3 到 5 个字符', trigger: 'blur' }
+            { min: 3, message: '长度在 3个字符以上', trigger: 'blur' }
           ],
           password: [
             { required: true, message: '请输入密码', trigger: 'change' }
@@ -59,7 +59,7 @@ export default {
             message: "恭喜你，登录成功",
             type: "success",
           });
-          this.$router.push("/");
+          this.$router.push("/home");
         } else {
           this.$message({
             showClose: true,
@@ -103,6 +103,7 @@ export default {
   font-weight: 900;
   color: #ffffff;
   text-shadow: 0 0 10px #ffffff;
+  text-align: center;
 }
 .title {
   color: #fff;
