@@ -26,6 +26,14 @@ const routes = [{
             component: () =>
                 import ("../components/Singe/SingeList.vue")
         }, {
+            path: "/home/CommentList",
+            component: () =>
+                import ("../components/Comment/CommentList.vue")
+        }, {
+            path: "/home/AlbumList",
+            component: () =>
+                import ("../components/Album/AlbumList.vue")
+        }, {
             path: "/home/Setting",
             component: () =>
                 import ("../views/SettingView.vue")

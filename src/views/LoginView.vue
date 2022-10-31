@@ -56,14 +56,14 @@ export default {
         if (valid) {
           this.$message({
             showClose: true,
-            message: "恭喜你，这是一条成功消息",
+            message: "恭喜你，登录成功",
             type: "success",
           });
           this.$router.push("/");
         } else {
           this.$message({
             showClose: true,
-            message: "警告哦，这是一条警告消息",
+            message: "警告哦，登录失败",
             type: "warning",
           });
           return false;

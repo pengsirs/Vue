@@ -38,7 +38,7 @@
             <span>专辑管理</span>
           </template>
           <el-menu-item index="4-1">
-          <router-link to="/home/SingeList" tag="span">专辑列表</router-link></el-menu-item>
+          <router-link to="/home/AlbumList" tag="span">专辑列表</router-link></el-menu-item>
         </el-submenu>
 
         <el-submenu index="5">
@@ -47,7 +47,7 @@
             <span>评论管理</span>
           </template>
           <el-menu-item index="5-1">
-          <router-link to="/home/SingeList" tag="span">评论列表</router-link></el-menu-item>
+          <router-link to="/home/CommentList" tag="span">评论列表</router-link></el-menu-item>
         </el-submenu>
 
         <el-menu-item index="4">
