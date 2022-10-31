@@ -22,11 +22,11 @@ GitHub：https://github.com/pengsirs/Vue
 
 打开命令窗口：windows使用win+R然后输入cmd，macOS使用Command+空格输入终端即可
 
-安装依赖：**npm install**
+安装依赖： `npm install`
 
 打开终端后cd到项目目录输入下面的命令运行项目
 
-**npm run serve**
+`npm run serve`
 
 直到提示网址链接即可复制链接到浏览器
 
@@ -35,13 +35,13 @@ GitHub：https://github.com/pengsirs/Vue
 
 2. 安装vue脚手架
     打开命令行工具，通过npm方式全局安装@vue/cli脚手架，具体命令如下：
-    **npm install @vue/cli@3.10 –g**
+    `npm install @vue/cli@3.10 –g`
     安装完成后，检测是否安装成功，使用如下命令来查看vue-cli的版本号：
-    **vue –V（或者vue --version)**
+    `vue –V（或者vue --version)`
 
 3. 创建项目
     使用命令创建创建
-    **vue create 项目名**
+    `vue create 项目名`
     使用可视化UI界面创建
     在命令窗口输入Vue UI即可
     ### 项目目录结构
@@ -63,8 +63,16 @@ GitHub：https://github.com/pengsirs/Vue
 
         README.md 项目的说明文档
 
-4. 引入ElementUI
+4. 安装并引入ElementUI
+    通过npm安装ElementUI，命令如下：
+    `npm i element-ui -S`
+    在main.js中进行全局引入
 
+    ```shell
+    import ElementUI from 'element-ui';
+    import 'element-ui/lib/theme-chalk/index.css';
+    ```
+    
 5. 创建登录模块
 
 6. 创建首页模块
