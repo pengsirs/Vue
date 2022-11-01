@@ -16,6 +16,10 @@ const routes = [{
     },
     {
         path: '/home',
+        redirect: "/home/index"
+    },
+    {
+        path: '/home',
         name: 'home',
         component: HomeView,
         children: [{
@@ -43,10 +47,6 @@ const routes = [{
             component: () =>
                 import ("../views/SettingView.vue")
         }],
-    },
-    {
-        path: '/home',
-        redirect: "/home/index"
     },
 ]
 

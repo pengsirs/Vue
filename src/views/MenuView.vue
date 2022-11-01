@@ -52,7 +52,7 @@
 
         <el-menu-item index="4">
           <i class="el-icon-s-tools"></i>
-          <router-link to="/home/Setting" tag="span">其他设置</router-link>
+          <router-link to="/home/Setting" tag="span">系统设置</router-link>
         </el-menu-item>
       </el-menu>
     </el-row>

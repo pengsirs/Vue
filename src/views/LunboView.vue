@@ -55,10 +55,11 @@ export default {
   width: 39%;
 }
 .lb-img {
-  padding: 5px;
+  padding: 5px 1%;
   height: 300px;
   background: #fff;
   box-shadow: #ddd 1px 1px 5px;
+  width:98%;
 }
 .el-carousel {
   height: 305px;
